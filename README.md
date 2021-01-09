@@ -15,6 +15,7 @@ It is best to teach your child colors from an early age.
 Make your child a genius, install this app and use it absolutely for free.
 
 
+________________________________________________________________
 Privacy Policy
 Denisov built the ColorsHD app as a Free app. This SERVICE is provided by Denisov at no cost and is intended for use as is.
 
