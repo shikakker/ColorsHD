@@ -1,5 +1,19 @@
 # ColorsHD
-game teach colors
+Teach your baby the basic colors and pronounce them in English!
+
+With our app, your baby will be able to learn 7 basic colors. The child will learn to pronounce the names of these colors correctly. 
+Bright colors, repeated in turn, will help your child quickly master the main bright colors of our planet.
+Each color is duplicated by pleasant music and a professional speaker. The kid sees the color and at the same time hears the name of this color in English.
+
+There is an active link, an associative perception of color and sound develops.
+This app is an excellent replacement for your desktop the cards with the training colors.
+
+Just download our app to your mobile phone and give it to your child, all the rest of the work will be done by our app.
+Our app is suitable for all age groups of children. The child does not need to touch the screen, all he needs is to listen to the voice and music and look at the phone screen.
+
+It is best to teach your child colors from an early age.
+Make your child a genius, install this app and use it absolutely for free.
+
 
 Privacy Policy
 Denisov built the ColorsHD app as a Free app. This SERVICE is provided by Denisov at no cost and is intended for use as is.
