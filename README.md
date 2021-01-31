@@ -18,7 +18,7 @@ Make your child a genius, install this app and use it absolutely for free.
 ________________________________________________________________
 Privacy Policy
 
-Denisov built the ColorsHD app as a Free app. This SERVICE is provided by Denisov at no cost and is intended for use as is.
+Dev App Company built the ColorsHD app as a Free app. This SERVICE is provided by Dev App Company at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
