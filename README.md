@@ -1,6 +1,9 @@
 # ColorsHD
 Teach your baby the basic colors and pronounce them in English!
 
+https://play.google.com/store/apps/details?id=com.Cubicle.projectColors
+
+
 With our app, your baby will be able to learn 7 basic colors. The child will learn to pronounce the names of these colors correctly. 
 Bright colors, repeated in turn, will help your child quickly master the main bright colors of our planet.
 Each color is duplicated by pleasant music and a professional speaker. The kid sees the color and at the same time hears the name of this color in English.
