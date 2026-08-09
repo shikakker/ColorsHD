@@ -1,82 +1,175 @@
-# ColorsHD
-Teach your baby the basic colors and pronounce them in English!
+# ColorsHD — Early Color-Learning App Archive
 
-https://play.google.com/store/apps/details?id=com.Cubicle.projectColors
+Historical educational application for introducing basic color names in English through large full-screen colors, spoken pronunciation, and accompanying audio.
 
+The repository preserves Android release artifacts, Windows / Unity build artifacts, and design materials from the original project. It is **not a complete Unity source project in its current state**.
 
-With our app, your baby will be able to learn 7 basic colors. The child will learn to pronounce the names of these colors correctly. 
-Bright colors, repeated in turn, will help your child quickly master the main bright colors of our planet.
-Each color is duplicated by pleasant music and a professional speaker. The kid sees the color and at the same time hears the name of this color in English.
+Historical Google Play package reference from the previous README:
 
-There is an active link, an associative perception of color and sound develops.
-This app is an excellent replacement for your desktop the cards with the training colors.
+```text
+com.Cubicle.projectColors
+```
 
-Just download our app to your mobile phone and give it to your child, all the rest of the work will be done by our app.
-Our app is suitable for all age groups of children. The child does not need to touch the screen, all he needs is to listen to the voice and music and look at the phone screen.
+The old store URL should be treated as archival unless the listing is independently confirmed to still exist.
 
-It is best to teach your child colors from an early age.
-Make your child a genius, install this app and use it absolutely for free.
+## Product concept
 
+ColorsHD was designed around a very low-interaction learning loop:
 
-________________________________________________________________
-Privacy Policy
+```text
+full-screen color
+      |
+      +-- English color name
+      +-- spoken pronunciation
+      +-- accompanying sound / music
+      |
+      v
+next color
+```
 
-Dev App Company built the ColorsHD app as a Free app. This SERVICE is provided by Dev App Company at no cost and is intended for use as is.
+The original product description focused on seven basic colors and passive repetition rather than menus, quizzes, or complex navigation.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+## Repository contents
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+### Android artifacts
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at ColorsHD unless otherwise defined in this Privacy Policy.
+`android/` contains pre-release distribution files including:
 
-Information Collection and Use
+```text
+ColorsHD v0.99 pre release.apk
+ColorsHD v0.99 pre release.aab
+ColorsHD v0.99 pre release 1.aab
+```
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to NO. The information that I request will be retained on your device and is not collected by me in any way.
+plus poster / design assets.
 
-The app does use third party services that may collect information used to identify you.
+These are **binary release artifacts**, not Android source code.
 
-Link to privacy policy of third party service providers used by the app
+### Unity / Windows artifacts
 
+`unity/` contains a built Unity application, including files such as:
+
+```text
+projectColors.exe
+UnityPlayer.dll
+UnityCrashHandler64.exe
+projectColors_Data/
+MonoBleedingEdge/
+```
+
+This is a compiled Unity / Windows distribution rather than the normal editable Unity project structure (`Assets/`, `Packages/`, `ProjectSettings/`).
+
+Therefore this repository cannot currently reproduce the app from source through Unity Editor.
+
+## Reproducibility gap
+
+A maintainable Unity repository would normally contain:
+
+```text
+Assets/
+Packages/
+ProjectSettings/
+```
+
+plus source scripts, scenes, audio references, and build settings.
+
+Those project-source directories are not present in the audited root. The current repository should therefore be presented as an **archive of builds and design assets**, not as an actively buildable Unity codebase.
+
+## Child-directed product boundary
+
+The old README used marketing language such as “make your child a genius” and suggested simply giving the phone to the child while the app does the rest.
+
+That language is not appropriate as a factual educational claim. Repetition of colors and spoken labels can support exposure / familiarity, but this repository does not provide evidence of developmental, cognitive, or educational outcomes.
+
+For a modern child-oriented product, use measured language such as:
+
+> A simple color-recognition and English-pronunciation activity for supervised early-learning use.
+
+## Screen-time / supervision
+
+A passive visual / audio app for young children should not imply that caregiver involvement is unnecessary.
+
+A modern version should consider:
+
+- short guided sessions;
+- caregiver controls;
+- clear audio start / stop;
+- no unnecessary engagement loops;
+- no dark patterns;
+- no behavioral advertising;
+- no collection of data that is not required for the learning experience.
+
+## Privacy policy in the old README
+
+The previous README embedded a long privacy policy dated:
+
+```text
+2021-01-09
+```
+
+and referenced third-party services including:
+
+```text
 Google Play Services
 Unity
-Log Data
+```
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+That historical text should **not** be treated as a current privacy policy for a republished app.
 
-Cookies
+Privacy disclosures must match the actual current build, SDKs, analytics, ads, crash reporting, permissions, storage, and store requirements.
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+### Contradictory child-privacy wording
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+The old policy said both that the product was intended for children and that the service “does not address anyone under the age of 13.” Those positions are inconsistent for a child-learning app.
 
-Service Providers
+Any future release should use a child-privacy policy specifically reviewed for the intended audience and markets.
 
-I may employ third-party companies and individuals due to the following reasons:
+## Binary distribution safety
 
-To facilitate our Service;
-To provide the Service on our behalf;
-To perform Service-related services; or
-To assist us in analyzing how our Service is used.
-I want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+Before redistributing the historical APK / AAB / EXE files:
 
-Security
+- verify package identity;
+- inspect requested permissions;
+- verify signing certificates where relevant;
+- scan historical binaries;
+- confirm SDK / Unity version support;
+- check whether embedded services or URLs are obsolete;
+- document the exact build provenance.
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+Old binaries may no longer satisfy current Android / Google Play requirements.
 
-Links to Other Sites
+## Repository size / source-control hygiene
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+The repository includes large compiled binaries such as Unity runtime DLLs and Android bundles.
 
-Children’s Privacy
+For a modern engineering repository, prefer:
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+```text
+source code in Git
+      +
+release binaries in GitHub Releases / artifact storage
+```
 
-Changes to This Privacy Policy
+rather than tracking large generated build outputs directly in the main source tree.
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+## Relationship to later learning experiments
 
-This policy is effective as of 2021-01-09
+The later `colorjoy-learn` repository explores a similar color-learning idea in a browser-based React implementation with timed color changes, ambient audio, and TTS experimentation.
 
-Contact Us
+For portfolio use, these can be presented as product evolution:
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at dev.app.comp@gmail.com.
+```text
+ColorsHD
+  -> early Unity / Android packaged learning app
+  -> later ColorJoy browser / TTS experiment
+```
+
+rather than unrelated projects.
+
+## Current status
+
+**Historical educational-app distribution archive.** Android and Unity / Windows builds plus design assets are preserved, but the editable Unity source project is not present in the current repository.
+
+## License
+
+No repository-wide software / media license is assumed by this README. Verify rights separately for source material, audio, voice recordings, Unity assets, fonts, images, and compiled third-party components before redistribution.
